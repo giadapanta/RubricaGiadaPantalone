@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rubrica.Core\Rubrica.Core.csproj" />
+    <ProjectReference Include="..\Rubrica.RepositoryEF\Rubrica.RepositoryEF.csproj" />
+    <ProjectReference Include="..\Rubrica.RepositoryMock\Rubrica.RepositoryMock.csproj" />
+  </ItemGroup>
+
+</Project>
